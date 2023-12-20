@@ -70,6 +70,7 @@ ul li span{
   position: relative;
   border-radius: 5px;
 cursor: pointer;
+/* padding-right:40px; */
   }
   /* .dropdown:valid{
   border: 2px solid #2d7bf9b6;
@@ -79,7 +80,7 @@ cursor: pointer;
 
   } */
   .icon {
-    right:28px;
+    right:20px;
   /* margin-left: 350px;
 margin-top: 10px; */
     position: absolute;
@@ -94,5 +95,9 @@ margin-top: 10px; */
     border-radius: 50%;
     height:10px;width:6px;
     background-color: #2D7BF9;
+    }
+    h5{
+    font-size: 19px;
+    
     }
    
