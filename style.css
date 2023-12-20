@@ -88,7 +88,7 @@ margin-top: 10px; */
     cursor: pointer;
     }
     .section5 h4::before{
-    margin-top: 15px;
+    margin-top: 10px;
     margin-right: 5px;
     content: '';
     padding: 5px;
@@ -110,7 +110,7 @@ margin-top: 10px; */
     }
     @media only screen and (max-width: 500px) {
         .bgg {
-            background-size: 390px;height: 240px;
+            background-size: 390px;height: 230px;
             /* margin: 15px; */
         }
         /* body {
@@ -125,17 +125,18 @@ margin-top: 10px; */
             font-size: 13px;
             }
             .bgg button{
-            font-size: 13px;
-            padding: 10px;
-            margin-bottom: 20px;
+            font-size: 10px;
+            padding: 5px;
+            margin-bottom: 12px;
+            
             }
             .section5 h4::before{
-                margin-top: 1px;
+                margin-top: 5px;
                 margin-right: 5px;
                 content: '';
-                padding: 3px;
+                padding: 2px;
                 border-radius: 50%;
-                height:5px;width:2px;
+                height:2px;width:2px;
                 background-color: #2D7BF9;
                 }
     }
