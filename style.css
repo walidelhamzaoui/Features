@@ -104,6 +104,10 @@ margin-top: 10px; */
     
        background-image: url('Groupe de masques 11@2x.png');height:430px;background-repeat: no-repeat; 
     }
+    .section5 h4{
+    color:#072249 ;
+    
+    }
     @media only screen and (max-width: 500px) {
         .bgg {
             background-size: 390px;height: 240px;
@@ -122,8 +126,8 @@ margin-top: 10px; */
             }
             .bgg button{
             font-size: 13px;
-            padding: 7px;
-            margin-bottom: 24px;
+            padding: 10px;
+            margin-bottom: 20px;
             }
             .section5 h4::before{
                 margin-top: 1px;
@@ -138,13 +142,15 @@ margin-top: 10px; */
     
     @media only screen and (min-width: 501px) {
         .bgg {
-            background-size: 60rem;
+            background-size: cover;
             
         }
         .bgg button{
-        padding: 10px;
+        padding: 12px;
+        font-size: 15px;
         
         }
+     
         
     }
    
