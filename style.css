@@ -100,4 +100,48 @@ margin-top: 10px; */
     font-size: 19px;
     
     }
+    .bgg{
+    
+       background-image: url('Groupe de masques 11@2x.png');height:430px;background-repeat: no-repeat; 
+    }
+    @media only screen and (max-width: 500px) {
+        .bgg {
+            background-size: 400px;height: 240px;
+        }
+        /* body {
+            background-color: aquamarine;
+        } */
+        .bgg h2{
+            font-size: 13px;
+            }
+        .bgg h4{
+            font-size: 13px;
+            }
+            .bgg button{
+            font-size: 13px;
+            padding: 7px;
+            margin-bottom: 18px;
+            }
+            .section5 h4::before{
+                margin-top: 1px;
+                margin-right: 5px;
+                content: '';
+                padding: 3px;
+                border-radius: 50%;
+                height:5px;width:2px;
+                background-color: #2D7BF9;
+                }
+    }
+    
+    @media only screen and (min-width: 501px) {
+        .bgg {
+            background-size: 60rem;
+            
+        }
+        .bgg button{
+        padding: 10px;
+        
+        }
+        
+    }
    
