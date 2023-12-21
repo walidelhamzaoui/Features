@@ -170,9 +170,11 @@ h5 {
     
 @media only screen and (max-width: 500px) {
     .bgg {
-        background-size: 390px;
+        background-size: 400px;
         height: 230px;
         /* margin: 15px; */
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     /* body {
