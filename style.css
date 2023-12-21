@@ -137,7 +137,7 @@ h5 {
 
 }
  h3{
-   font: normal normal bold 38px/50px Urbanist; color:#072249;
+   font: normal normal bold 38px/43px Urbanist; color:#072249;
 
 }
 .card{
@@ -167,6 +167,15 @@ h5 {
     
     transition: scale(1.5); 
     }
+    p{
+    font-size: 18px;
+    line-height: 30px;
+    
+    }
+    .card p{
+    max-height: 70px;
+    font-size: 15px;
+    }
     
 @media only screen and (max-width: 500px) {
     .bgg {
@@ -190,12 +199,7 @@ h5 {
         font-size: 13px;
     }
 
-    .bgg button {
-        font-size: 11px;
-        padding: 5px;
-        margin-bottom: 12px;
-
-    }
+    
  
 
     .section5 h4::before {
@@ -209,7 +213,7 @@ h5 {
         background-color: #2D7BF9;
     }
     h3{
-        font: normal normal bold 26px/40px Urbanist; color:#072249;
+        font: normal normal bold 26px/35px Urbanist; color:#072249;
      
      }
      .icon {
@@ -231,7 +235,8 @@ padding:9px
         padding: 10px;
         width: 140px;
         /* font-size: 18px;font-weight: 400; */
-        
+        font-size: 12px;
+        margin-bottom: 5px;
     }
     .card h5{
         height:60px
@@ -263,6 +268,9 @@ padding:9px
             z-index: 10;
             cursor: pointer;
         }
-
+        .card p{
+            max-height: 70px;
+            font-size: 18px;
+            }
 
 }
