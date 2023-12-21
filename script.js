@@ -17,7 +17,7 @@ function button() {
         dropdown.style.boxShadow="1px 1px 3px 4px #2d7bf91d"
     } else {
         para.style.display = "none";
-        dropdown.style.border=" none";
+        dropdown.style.border="2px solid #79818e37";
         dropdown.style.boxShadow=" none"
     }
 }
@@ -35,7 +35,7 @@ function button1() {
         dropdown1.style.boxShadow="1px 1px 3px 4px #2d7bf91d"
     } else {
         para.style.display = "none";
-        dropdown1.style.border=" none";
+        dropdown1.style.border="2px solid #79818e37";
         dropdown1.style.boxShadow=" none"
     }
 }
@@ -54,7 +54,7 @@ function button2() {
         
     } else {
         para.style.display = "none";
-        dropdown2.style.border=" none";
+        dropdown2.style.border="2px solid #79818e37";
         dropdown2.style.boxShadow=" none"
     }
 }
