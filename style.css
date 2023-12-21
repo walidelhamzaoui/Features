@@ -151,6 +151,10 @@ h5 {
     transform: scale(1.04);
     
     }
+    .section3 h5{
+    padding: 10px;
+    
+    }
 @media only screen and (max-width: 500px) {
     .bgg {
         background-size: 390px;
