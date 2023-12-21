@@ -3,7 +3,10 @@
 * {
     padding: 0;
     margin: 0;
-
+    
+}
+body {
+    user-select: none;
 }
 
 ul li {
@@ -18,8 +21,8 @@ text-align: left; */
     letter-spacing: 0px;
     color: #072249;
     opacity: 1;
-    font-size: 17px;
-
+    font-size: 18px;
+font-weight: bold;
 
 }
 
@@ -49,7 +52,7 @@ p {
 }
 
 img {
-    width: 550px;
+    width: 520px;
 }
 
 .section5 h4 {
@@ -82,8 +85,8 @@ img {
 
 
 .dropdown {
-    border: 2px solid #2d7bf9b6;
-    box-shadow: 1px 1px 2px 1px #2d7bf91d;
+    /* border: 2px solid #2d7bf9b6; */
+    border:2px solid #79818e37;
     position: relative;
     border-radius: 5px;
     cursor: pointer;
@@ -98,7 +101,7 @@ img {
 
   } */
 .icon {
-    right: 20px;
+    right: 30px;
     /* margin-left: 350px;
 margin-top: 10px; */
     position: absolute;
@@ -190,6 +193,14 @@ h5 {
         font: normal normal bold 28px/40px Urbanist; color:#072249;
      
      }
+     .icon {
+        right: 18px;
+        /* margin-left: 350px;*/
+    margin-top: 2px; 
+        position: absolute;
+        z-index: 10;
+        cursor: pointer;
+    }
 }
 
 @media only screen and (min-width: 500px) {
