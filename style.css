@@ -66,21 +66,21 @@ img {
     display: none;
     border-radius: 15px;
     box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.096);
-
+padding: 18px;
 }
 
 #para1 {
     display: none;
     border-radius: 15px;
     box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.096);
-
+padding: 18px;
 }
 
 #para2 {
     display: none;
     border-radius: 15px;
     box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.096);
-
+padding: 18px;
 }
 
 
@@ -137,12 +137,12 @@ h5 {
 
 }
  h3{
-   font: normal normal bold 43px/48px Urbanist; color:#072249;
+   font: normal normal bold 38px/50px Urbanist; color:#072249;
 
 }
 .card{
     /* border: 1px solid blueviolet; */
-   height: auto; border-radius:20px ;
+    border-radius:20px ;
     transition:0.5s ease-out;
     
     }
@@ -159,7 +159,15 @@ h5 {
     button{
     font-size: 18px;
     background-color: #2D7BF9; padding:10px;
+    transition: 0.5s ease-in-out;
     }
+    button:hover{
+    opacity: 1;
+    transform:scaleX(0.93);
+    
+    transition: scale(1.5); 
+    }
+    
 @media only screen and (max-width: 500px) {
     .bgg {
         background-size: 390px;
@@ -199,7 +207,7 @@ h5 {
         background-color: #2D7BF9;
     }
     h3{
-        font: normal normal bold 28px/40px Urbanist; color:#072249;
+        font: normal normal bold 35px/40px Urbanist; color:#072249;
      
      }
      .icon {
@@ -244,6 +252,14 @@ padding:9px
         .card h5{
             max-height:100px
           
+        }
+        .icon {
+            right: 18px;
+            /* margin-left: 350px;*/
+        margin-top: 6px; 
+            position: absolute;
+            z-index: 10;
+            cursor: pointer;
         }
 
 
