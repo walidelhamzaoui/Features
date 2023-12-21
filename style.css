@@ -146,6 +146,7 @@ h5 {
     transition:0.5s ease-out;
     
     }
+   
     .card:hover{
     border: 2px solid #2d7bf978;
     transform: scale(1.04);
@@ -222,6 +223,10 @@ padding:9px
         /* font-size: 18px;font-weight: 400; */
         
     }
+    .card h5{
+        height:60px
+      
+    }
 }
 
 @media only screen and (min-width: 500px) {
@@ -232,11 +237,14 @@ padding:9px
 
     .button{
         font-size: 18px;
-        width:200px;
+        width:230px;
         
     padding:9px
         }
-  
+        .card h5{
+            max-height:100px
+          
+        }
 
 
 }
