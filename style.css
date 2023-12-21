@@ -134,10 +134,20 @@ h5 {
 
 }
  h3{
-   font: normal normal bold 44px/48px Urbanist; color:#072249;
+   font: normal normal bold 43px/48px Urbanist; color:#072249;
 
 }
-
+.card{
+    /* border: 1px solid blueviolet; */
+   height: auto; border-radius:20px ;
+    transition:0.5s ease-out;
+    
+    }
+    .card:hover{
+    border: 2px solid #2d7bf978;
+    transform: scale(1.04);
+    
+    }
 @media only screen and (max-width: 500px) {
     .bgg {
         background-size: 390px;
@@ -164,6 +174,7 @@ h5 {
         margin-bottom: 12px;
 
     }
+ 
 
     .section5 h4::before {
         margin-top: 5px;
@@ -175,7 +186,10 @@ h5 {
         width: 2px;
         background-color: #2D7BF9;
     }
-
+    h3{
+        font: normal normal bold 28px/48px Urbanist; color:#072249;
+     
+     }
 }
 
 @media only screen and (min-width: 500px) {
