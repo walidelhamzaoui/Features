@@ -172,8 +172,9 @@ h5 {
     line-height: 30px;
     
     }
-    .card p{
-    max-height: 70px;
+    
+    .card a{
+    max-height: 80px;
     font-size: 15px;
     }
     
@@ -273,7 +274,7 @@ padding:9px
             cursor: pointer;
         }
         .card p{
-            max-height: 80px;
+            height: 80px;
             font-size: 18px;
             }
         
