@@ -242,6 +242,10 @@ padding:9px
         height:60px
       
     }
+    .card p{
+        max-height: 120px;
+        font-size: 18px;
+        }
 }
 
 @media only screen and (min-width: 500px) {
@@ -269,8 +273,9 @@ padding:9px
             cursor: pointer;
         }
         .card p{
-            max-height: 70px;
+            max-height: 80px;
             font-size: 18px;
             }
+        
 
 }
