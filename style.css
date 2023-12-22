@@ -144,7 +144,8 @@ h5 {
     /* border: 1px solid blueviolet; */
     border-radius:20px ;
     transition:0.5s ease-out;
-    
+    height:450px;
+    position: relative;
     }
    
     .card:hover{
@@ -173,9 +174,13 @@ h5 {
     
     }
     
+  
     .card a{
-    max-height: 80px;
-    font-size: 15px;
+    
+    font-size: 18px;
+    position: absolute;
+    bottom: 20px;
+    left: 35%;
     }
     
 @media only screen and (max-width: 500px) {
@@ -273,10 +278,15 @@ padding:9px
             z-index: 10;
             cursor: pointer;
         }
-        .card p{
-            height: 80px;
+        /* .card p{
+            max-height: 100px;
             font-size: 18px;
-            }
+            } */
+        /* .card p{
+            max-height: 150px;
+            font-size: 18px;
+            } */
+            
         
 
 }
