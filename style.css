@@ -126,7 +126,7 @@ h5 {
 }
 
 .bgg {
-
+border-radius: 10px;
     background-image: url('Groupe de masques 11@2x.png');
     height: 430px;
     background-repeat: no-repeat;
@@ -137,7 +137,7 @@ h5 {
 
 }
  h3{
-   font: normal normal bold 38px/43px Urbanist; color:#072249;
+    font: normal normal bold 44px/48px Urbanist; color:#072249;
 
 }
 .card{
@@ -159,19 +159,41 @@ h5 {
     }
     button{
     font-size: 18px;
-    background-color: #2D7BF9; padding:10px;
+    /* background-color: #2D7BF9; padding:10px; */
     transition: 0.5s ease-in-out;
     }
-    button:hover{
-    opacity: 1;
-    transform:scaleX(0.93);
-    
-    transition: scale(1.5); 
+    .btn{
+    font-size: 18px;
+    background-color:#2d7bf9f1 
+    }
+    .btn:hover{
+  
+    background-color: #072249;
+    }
+    .btn:first-of-type {
+        padding: 10px;
+      }
+    .login{
+    background-color: #E0EBFE ;
+    color: #68A2FF;
+    font-size: 16px;
+    }
+    .login:hover{
+    background-color: #0736872d ;
+    color: #2D7BF9;
     }
     p{
-    font-size: 18px;
-    line-height: 30px;
+        font: normal normal normal 18px/22px Urbanist;
+        color: #072249;
+      
     
+    }
+    .section2 h4 li{
+    font-size: 18px;
+    font: normal normal bold 18px/22px Urbanist;
+    }
+    .section4 h5 li{
+    color: #072249; font: normal normal bold 18px/22px Urbanist;
     }
     
   
