@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Nunito+Sans:ital,opsz,wght@1,6..12,500&family=Roboto:ital,wght@0,100;1,700&family=Urbanist:wght@400;700&display=swap');
+
 
 * {
     padding: 0;
@@ -18,6 +20,7 @@ height: 330px; */
     /* letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--unnamed-color-072249);
 text-align: left; */
+list-style-type: none;
     letter-spacing: 0px;
     color: #072249;
     opacity: 1;
@@ -27,6 +30,7 @@ font-weight: bold;
 }
 
 ul li span {
+
     font: normal normal normal 18px/22px Urbanist;
     /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
 }
@@ -36,12 +40,10 @@ h3 {
     font: normal normal bold 30px/27px Urbanist;
     letter-spacing: 1px;
     line-height: 35px;
+    font-weight: 700;
 }
 
-h4 {
-    color: #072249;
-    font-size: 27px;
-}
+
 
 .card {
     padding: 13px;
@@ -55,12 +57,7 @@ img {
     width: 520px;
 }
 
-.section5 h4 {
-    font-size: 28px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
 
-}
 
 #para {
     display: none;
@@ -109,7 +106,7 @@ margin-top: 10px; */
     cursor: pointer;
 }
 
-.section5 h4::before {
+.bgg h4::before {
     margin-top: 10px;
     margin-right: 5px;
     content: '';
@@ -129,16 +126,15 @@ h5 {
 border-radius: 10px;
     background-image: url('Groupe de masques 11@2x.png');
     height: 430px;
-    background-repeat: no-repeat;
+   background-repeat: no-repeat;
 }
 
 .section5 h4 {
     color: #072249;
-
+    font: italic normal 600 30px/29px Urbanist;
 }
- h3{
-    font: normal normal bold 44px/48px Urbanist; color:#072249;
-
+.bgg h2{
+    font: normal normal bold 35px/40px Urbanist;  color:#072F7E;
 }
 .card{
     /* border: 1px solid blueviolet; */
@@ -204,46 +200,72 @@ border-radius: 10px;
     bottom: 20px;
     left: 35%;
     }
+    .circle{
+    border-radius: 10px;
+    width:10px;height:10px;background-color: #2D7BF9;
+    }
+    .nav-link:hover{
+    color: #1a68e6;
+    text-decoration: underline;
+    }
+    .nav-link{
+    color: #68A2FF ;
+   
+    }
     
 @media only screen and (max-width: 500px) {
     .bgg {
-        background-size: 400px;
-        height: 230px;
+    /* margin-left: 10px;margin-right: 50px; */
+     background-image: url('bgg.png');;
+        background-size:cover;
+        
+        height: 600px;
+        
         /* margin: 15px; */
-        margin-left: 5px;
-        margin-right: 5px;
+        /* margin-left: 5px;
+        margin-right: 5px; */
+     
     }
-
-    /* body {
-            background-color: aquamarine;
-        } */
-    .bgg h2 {
-        font-size: 13px;
-        /* width:160px; */
-
-    }
-
-    .bgg h4 {
-        font-size: 13px;
-    }
+.v{
+margin-top: 180px;
+/* margin-right:100px; */
+}
 
     
  
 
-    .section5 h4::before {
-        margin-top: 5px;
+    .bgg h4::before {
+        margin-top: 8px;
         margin-right: 5px;
         content: '';
         padding: 2px;
         border-radius: 50%;
-        height: 2px;
-        width: 2px;
+        height: 10px;
+        width: 10px;
         background-color: #2D7BF9;
     }
     h3{
-        font: normal normal bold 26px/35px Urbanist; color:#072249;
+        font: normal normal bold 26px/32px Urbanist;
+        /* text-align: center; */
      
      }
+    .section5 h2{
+        font: normal normal bold 26px/32px Urbanist;
+        margin-top: 90px;
+        margin-bottom: 30px;
+     /* margin-top: 35px; */
+     /* margin-left: 80px; */
+     padding: 3px 20px;
+     }
+     .section5 h4 {
+        color: #072249;
+        font: normal normal normal 18px/32px Urbanist;
+        
+    }
+    .vb{
+    display: none;
+    
+    }
      .icon {
         right: 18px;
         /* margin-left: 350px;*/
@@ -255,6 +277,7 @@ border-radius: 10px;
     .button{
     font-size: 15px;
     width:160px;
+    text-align: center;
     
 padding:9px
     }
@@ -274,6 +297,44 @@ padding:9px
         max-height: 120px;
         font-size: 18px;
         }
+        .circle{
+            border-radius: 10px;
+            width:15px;height:8px;background-color: #2D7BF9;
+            }
+            .section1 .circle{
+                padding: 8px;
+                
+                }
+            .section4 .circle{
+                padding: 5px;
+                width:10px;height:8px;background-color: #2D7BF9;
+                }
+            .login{
+    display: none;
+            }
+            .sign_up{
+                display: none;
+            
+            }
+            .section2 .reverse{
+            display: flex;
+            flex-direction: column-reverse;
+            
+            }
+            .section6 h4{
+                font: normal normal bold 44px/48px Urbanist;
+            }
+            p{
+                font: normal normal normal 18px/22px Urbanist;
+            
+            }
+            h5{
+                font: normal normal bold 18px/22px Urbanist;
+            
+            }
+            ul li span {
+                font: normal normal normal 16px/22px Urbanist;
+            }
 }
 
 
