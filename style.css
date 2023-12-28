@@ -243,14 +243,14 @@ border-radius: 10px;
     }
 .v{
 margin-top: 180px;
-/* margin-right:100px; */
+margin-left: 10px;
 }
 
     
  
 
     .bgg h4::before {
-        margin-top: 8px;
+        margin-top: 12px;
         margin-right: 5px;
         content: '';
         padding: 2px;
@@ -353,7 +353,7 @@ padding:9px
             }
             ul li span {
                 font: normal normal normal 16px/22px Urbanist;
-            }
+           
 }
 
 
