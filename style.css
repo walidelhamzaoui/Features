@@ -12,14 +12,7 @@ body {
 }
 
 ul li {
-    /* top: 442px;
-left: 968px;
-width: 682px;
-height: 330px; */
-    /* UI Properties */
-    /* letter-spacing: var(--unnamed-character-spacing-0);
-color: var(--unnamed-color-072249);
-text-align: left; */
+    
 list-style-type: none;
     letter-spacing: 0px;
     color: #072249;
@@ -32,7 +25,6 @@ font-weight: bold;
 ul li span {
 
     font: normal normal normal 18px/22px Urbanist;
-    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
 }
 
 h3 {
@@ -82,25 +74,18 @@ padding: 18px;
 
 
 .dropdown {
-    /* border: 2px solid #2d7bf9b6; */
+    
     border:2px solid #79818e37;
     position: relative;
     border-radius: 5px;
     cursor: pointer;
-    /* padding-right:40px; */
+   
 }
 
-/* .dropdown:valid{
-  border: 2px solid #2d7bf9b6;
-  box-shadow: 1px 1px 4px 3px #2d7bf91d;
-  position: relative;
-  border-radius: 5px;
 
-  } */
 .icon {
     right: 30px;
-    /* margin-left: 350px;
-margin-top: 10px; */
+
     position: absolute;
     z-index: 10;
     cursor: pointer;
@@ -117,10 +102,10 @@ margin-top: 10px; */
     background-color: #2D7BF9;
 }
 
-h5 {
+/* h5 {
     font-size: 19px;
 
-}
+} */
 
 .bgg {
 border-radius: 10px;
@@ -137,7 +122,7 @@ border-radius: 10px;
     font: normal normal bold 35px/40px Urbanist;  color:#072F7E;
 }
 .card{
-    /* border: 1px solid blueviolet; */
+   
     border-radius:20px ;
     transition:0.5s ease-out;
     height:450px;
@@ -226,15 +211,12 @@ border-radius: 10px;
     
 @media only screen and (max-width: 500px) {
     .bgg {
-    /* margin-left: 10px;margin-right: 50px; */
      background-image: url('bgg.png');;
         background-size:cover;
         
         height: 600px;
         
-        /* margin: 15px; */
-        /* margin-left: 5px;
-        margin-right: 5px; */
+       
      
     }
 .v{
@@ -257,15 +239,14 @@ margin-left: 10px;
     }
     h3{
         font: normal normal bold 26px/32px Urbanist;
-        /* text-align: center; */
+        
      
      }
     .section5 h2{
         font: normal normal bold 26px/32px Urbanist;
         margin-top: 100px;
         margin-bottom: 20px;
-     /* margin-top: 35px; */
-     /* margin-left: 80px; */
+    
      padding: 3px 20px;
      }
      .section5 h4 {
@@ -279,7 +260,7 @@ margin-left: 10px;
     }
      .icon {
         right: 18px;
-        /* margin-left: 350px;*/
+        
     margin-top: 2px; 
         position: absolute;
         z-index: 10;
@@ -296,7 +277,7 @@ padding:9px
     text-align: center;
         padding: 10px;
         width: 140px;
-        /* font-size: 18px;font-weight: 400; */
+        
         font-size: 12px;
         margin-bottom: 5px;
     }
@@ -315,8 +296,7 @@ padding:9px
             padding: 2px;
             }
             .section1 .circle{
-                /* padding: 8px;
-                margin-left: 0px; */
+              
                 margin-left: -10px;
                 }
             .section4 .circle{
@@ -324,13 +304,10 @@ padding:9px
                 padding: 5px;
                 width:10px;height:8px;background-color: #2D7BF9;
                 }
-            .login{
-    display: none;
+            .login,.sign_up{
+             display: none;
             }
-            .sign_up{
-                display: none;
             
-            }
             .section2 .reverse{
             display: flex;
             flex-direction: column-reverse;
@@ -359,33 +336,20 @@ padding:9px
 
     }
 
-    .button{
-        font-size: 18px;
-        width:230px;
-        
-    padding:9px
-        }
+    
         .card h5{
             max-height:100px
           
         }
         .icon {
             right: 18px;
-            /* margin-left: 350px;*/
+           
         margin-top: 6px; 
             position: absolute;
             z-index: 10;
             cursor: pointer;
         }
-        /* .card p{
-            max-height: 100px;
-            font-size: 18px;
-            } */
-        /* .card p{
-            max-height: 150px;
-            font-size: 18px;
-            } */
-            
+       
         
 
 }
