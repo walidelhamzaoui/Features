@@ -153,11 +153,7 @@ border-radius: 10px;
     padding: 10px;
     
     }
-    button{
-    font-size: 18px;
-    /* background-color: #2D7BF9; padding:10px; */
-    transition: 0.5s ease-in-out;
-    }
+   
     .btn{
     font-size: 18px;
     background-color:#2d7bf9f1 ;
@@ -277,7 +273,7 @@ margin-left: 10px;
         font: normal normal normal 18px/32px Urbanist;
         
     }
-    .vb{
+    .buttons{
     display: none;
     
     }
