@@ -14,11 +14,10 @@ body {
 ul li {
     
 list-style-type: none;
-    letter-spacing: 0px;
+    
     color: #072249;
     opacity: 1;
-    font-size: 18px;
-font-weight: bold;
+    font: normal normal bold 18px/22px Urbanist;
 
 }
 
@@ -28,17 +27,17 @@ ul li span {
 }
 
 h3 {
-    color: #072249;
-    font: normal normal bold 30px/27px Urbanist;
-    letter-spacing: 1px;
-    line-height: 35px;
-    font-weight: 700;
+    font: normal normal bold 44px/48px Urbanist; color: #072F7E;
 }
 
 
 
 .card {
-    padding: 13px;
+    padding: 10px;
+}
+
+.card img{
+    border-radius: 20px;
 }
 
 p {
@@ -123,10 +122,10 @@ border-radius: 10px;
 }
 .card{
    
-    border-radius:20px ;
+    border-radius:35px ;
     transition:0.5s ease-out;
     height:450px;
-    position: relative;
+    /* position: relative; */
     }
    
     .card:hover{
@@ -184,19 +183,18 @@ border-radius: 10px;
     left: 35%;
     }
     .section1 .circle{
-    border-radius: 10px;
+    border-radius: 10px;margin-left: -30px;
     width:10px;height:10px;background-color: #2D7BF9;
     }
-     circle{
-    border-radius: 10px;
-    width:19px;height:10px;background-color: #2D7BF9;
-    }
+   
     .circle{
-    margin-left: -8px;
-    border-radius: 10px;
-    width:12px;height:10px;background-color: #2D7BF9;
+    
+    border-radius: 10px;padding: 5px;
+    width:10px;height:11px;background-color: #2D7BF9;
+    
     }
     .section4 .circle{
+        margin-left: -3px;
         padding: 5px;
         width:9px;height:10px;background-color: #2D7BF9;
         }
@@ -213,11 +211,13 @@ border-radius: 10px;
     .bgg {
      background-image: url('bgg.png');;
         background-size:cover;
-        
-        height: 600px;
-        
-       
-     
+        /* top: 3512px; */
+        margin-left: 20px;
+         width: 90%;
+        height: 531px;
+         text-align: center;
+         /* background-position: center center ; */
+     border-radius: 20px;
     }
 .v{
 margin-top: 180px;
@@ -239,20 +239,21 @@ margin-left: 10px;
     }
     h3{
         font: normal normal bold 26px/32px Urbanist;
+       
         
      
      }
     .section5 h2{
-        font: normal normal bold 26px/32px Urbanist;
+        font: normal normal bold 25px/32px Urbanist;
         margin-top: 100px;
         margin-bottom: 20px;
-    
+        width: 100%;
      padding: 3px 20px;
      }
-     .section5 h4 {
+     .bgg h4 {
         color: #072249;
-        font: normal normal normal 18px/32px Urbanist;
-        
+        font: normal normal normal 19px/32px Urbanist;
+        width: 95%;
     }
     .buttons{
     display: none;
@@ -297,7 +298,7 @@ padding:9px
             }
             .section1 .circle{
               
-                margin-left: -10px;
+                margin-left: -30px;
                 }
             .section4 .circle{
                 margin-left: 4px;
@@ -333,6 +334,7 @@ padding:9px
 @media only screen and (min-width: 500px) {
     .bgg {
         background-size: cover;
+        
 
     }
 
