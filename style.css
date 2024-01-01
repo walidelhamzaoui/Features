@@ -333,7 +333,7 @@ padding:9px
 }
 }
 
-/* @media only screen and (min-width: 500px) {
+@media only screen and (min-width: 500px) {
     .bgg {
         background-size: cover;
         
@@ -351,9 +351,9 @@ padding:9px
         margin-top: 6px; 
             position: absolute;
             z-index: 10;
-            cursor: pointer; */
-        /* }
+            cursor: pointer;
+        }
        
         
 
-} */
+}
