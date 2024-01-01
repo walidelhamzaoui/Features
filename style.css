@@ -78,7 +78,7 @@ padding: 18px;
     position: relative;
     border-radius: 5px;
     cursor: pointer;
-   
+   /* width: fit-content; */
 }
 
 
@@ -189,14 +189,16 @@ border-radius: 10px;
    
     .circle{
     
-    border-radius: 10px;padding: 5px;
+    border-radius: 10px;padding: 4px;
+    margin-top: 7px;
     width:10px;height:11px;background-color: #2D7BF9;
     
     }
     .section4 .circle{
         margin-left: -3px;
-        padding: 5px;
-        width:9px;height:10px;background-color: #2D7BF9;
+        padding: 4px;
+        margin-top:7px;
+        width:10px;height:10px;background-color: #2D7BF9;
         }
     .nav-link:hover{
     color: #1a68e6;
